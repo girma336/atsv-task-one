@@ -11,17 +11,18 @@ const Footer = () => {
           <div>
             <h3 className="mb-10 text-xl font-medium">Sitemap</h3>
             <ul className="space-y-2">
-              {[
-                "Arifget Digital Assets",
-                "Arifget Online Courses",
-                "Arifget Freelancers",
-              ].map((item, index) => (
-                <li key={index}>
-                  <a href="#" className="text-sm font-bold hover:text-primary">
-                    {item}
-                  </a>
-                </li>
-              ))}
+              {["A2sv  Assets", "A2sv  Courses", "A2sv Freelancers"].map(
+                (item, index) => (
+                  <li key={index}>
+                    <a
+                      href="#"
+                      className="text-sm font-bold hover:text-primary"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
             </ul>
           </div>
           <div className="py-16 md:py-0">
